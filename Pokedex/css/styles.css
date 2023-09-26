@@ -1,0 +1,53 @@
+/* Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: x-small;
+}
+
+.header {
+    background-color: #bb1717;
+    padding: 10px;
+    text-align: center;
+}
+
+.header img {
+    width: 40%;
+}
+
+.input-group {
+    display: flex;
+    padding: 40px;
+}
+
+.input-group label, .input-group input[type=text], .input-group[type=button] {
+    font-size: 1.2em;
+}
+
+.input-group label {
+    background-color: #d2d2d2;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.input-group input[type=text] {
+    flex: 1 1;
+}
+
+.input-group input[type=button] {
+    background-color: #bb1717;
+    padding: 0 40px;
+    border-radius: 0 10px 10px 0;
+    transition: ease-in .2s;
+}
+
+.input-group input[type=button]:hover{
+    background-color: #bb1717d4;
+    color: #fff;
+    transition: ease-in .2s;
+}
