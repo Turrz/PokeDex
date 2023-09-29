@@ -8,6 +8,7 @@ body{
     padding: 0;
     font-family: Montserrat;
     font-size: x-small;
+    background-color: #d2d2d2;
 }
 
 .header {
@@ -22,7 +23,13 @@ body{
 
 .input-group {
     display: flex;
-    padding: 40px;
+    width: 40%;
+    margin: 0 auto 20px auto;
+    background-color: #bb1717;
+    padding: 20px 40px;
+    border-radius: 0 0 20px 20px;
+    border-width: 0 2px 2px 2px;
+
 }
 
 .input-group label, .input-group input[type=text], .input-group[type=button] {
@@ -50,4 +57,45 @@ body{
     background-color: #bb1717d4;
     color: #fff;
     transition: ease-in .2s;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    box-shadow: #bb1717;
+    -webkit-box-shadow: 0px -1px 41px -3px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px -1px 41px -3px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px -1px 41px -3px rgba(0, 0, 0, 0.51);
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.row:first-of-type {
+    margin: 50px 0;
+
+}
+.main-image {
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    bottom: -30px;
+    width: 100px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 4px solid #000;
+    background-color: #fff;
+    padding:0;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 50%;
 }
